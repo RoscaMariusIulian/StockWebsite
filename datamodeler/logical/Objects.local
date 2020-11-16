@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="9FB17014-2D7E-B9EE-3660-D5F93E7F3217" name="user db" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F1AE60D-C824-8140-4846-AAB29C50B2CE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A50E0146-F430-EFAC-123E-171E0BC8BE85" name="Inventory" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F1AE60D-C824-8140-4846-AAB29C50B2CE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="B6C508B2-0612-CB96-8D6F-C0FCADB2BA66" name="Stocks" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9F1AE60D-C824-8140-4846-AAB29C50B2CE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="1589ACA0-E5C7-01E8-1BBA-49E91C9CA939" name="stocks_fk" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9F1AE60D-C824-8140-4846-AAB29C50B2CE" propertySourceId="9FB17014-2D7E-B9EE-3660-D5F93E7F3217" propertyTargetId="B6C508B2-0612-CB96-8D6F-C0FCADB2BA66"/>
+   <object objectType="Relation" objectID="8398A231-5993-027C-FD5C-77D8CEEEB262" name="user_db_fk" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="9F1AE60D-C824-8140-4846-AAB29C50B2CE" propertySourceId="9FB17014-2D7E-B9EE-3660-D5F93E7F3217" propertyTargetId="A50E0146-F430-EFAC-123E-171E0BC8BE85"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9FB17014-2D7E-B9EE-3660-D5F93E7F3217" name="user db">
+<createdBy>sayka</createdBy>
+<createdTime>2019-12-30 20:58:13 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user id" id="E7331A67-AFBA-7749-2C96-A412377F1168">
+<createdBy>sayka</createdBy>
+<createdTime>2019-12-30 20:58:27 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="590AB9D5-A8A1-A3E4-DEA3-3DAF8BE63026">
+<createdBy>sayka</createdBy>
+<createdTime>2019-12-30 20:58:39 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="91BE5CCF-64E8-C227-3865-B552859974B9">
+<createdBy>sayka</createdBy>
+<createdTime>2019-12-30 20:58:52 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="7320C4D9-C3D7-2C46-B869-AEB7AF6CE1C1">
+<createdBy>sayka</createdBy>
+<createdTime>2019-12-30 20:59:12 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="money" id="639329F7-A8A3-0A65-024D-35F2FEDAE848">
+<createdBy>sayka</createdBy>
+<createdTime>2019-12-30 20:59:24 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56B62024-9D30-0CF2-146E-5B62CC7805AE" name="user_db_PK">
+<createdBy>sayka</createdBy>
+<createdTime>2019-12-30 21:06:40 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E7331A67-AFBA-7749-2C96-A412377F1168</newElementsIDs>
+<usedAttributes>
+<attributeRef>E7331A67-AFBA-7749-2C96-A412377F1168</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

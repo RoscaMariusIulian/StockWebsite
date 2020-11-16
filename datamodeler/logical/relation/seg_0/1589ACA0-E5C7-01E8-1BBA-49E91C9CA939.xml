@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stocks_fk" directorySegmentName="seg_0" id="1589ACA0-E5C7-01E8-1BBA-49E91C9CA939">
+<createdBy>sayka</createdBy>
+<createdTime>2020-01-04 09:23:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<sourcePk>56B62024-9D30-0CF2-146E-5B62CC7805AE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FB17014-2D7E-B9EE-3660-D5F93E7F3217</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6C508B2-0612-CB96-8D6F-C0FCADB2BA66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

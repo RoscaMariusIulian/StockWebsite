@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A50E0146-F430-EFAC-123E-171E0BC8BE85" name="Inventory">
+<createdBy>sayka</createdBy>
+<createdTime>2020-01-04 09:20:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="inventory_id" id="95C21E6B-A541-0168-F7A0-4FA5B009C3E0">
+<createdBy>sayka</createdBy>
+<createdTime>2020-01-04 09:20:27 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock_name" id="926B0270-2328-8E2B-7E99-7155AAB11E50">
+<createdBy>sayka</createdBy>
+<createdTime>2020-01-04 09:20:41 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="5D8ADC33-B098-FAE3-97EF-6DE68DA63FC8">
+<createdBy>sayka</createdBy>
+<createdTime>2020-01-04 09:22:40 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user id" id="D2D53B64-87F6-1BF3-F4B1-157D64CFCF55">
+<createdBy>sayka</createdBy>
+<createdTime>2020-01-04 09:23:26 UTC</createdTime>
+<generatorID>8398A231-5993-027C-FD5C-77D8CEEEB262</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<referedAttribute>E7331A67-AFBA-7749-2C96-A412377F1168</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07C62188-2278-B2D7-B5EC-F262090A431B" name="inventory_pk">
+<createdBy>sayka</createdBy>
+<createdTime>2020-01-04 09:54:04 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="45FBB116-9F3C-0D85-FC6C-2A7CA6A2D001" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>95C21E6B-A541-0168-F7A0-4FA5B009C3E0</newElementsIDs>
+<usedAttributes>
+<attributeRef>95C21E6B-A541-0168-F7A0-4FA5B009C3E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
